@@ -233,6 +233,42 @@
   }
 
 
+
+  .footer-column{
+        width: 50%;
+        padding-top: 100px;
+       
+    }
+
+
+    .footer-column input[type="email"], .footer-column input[type="text"], .footer-column textarea{
+        height: 44px;
+        border-radius: 5px;
+        border: 1px solid red;
+        display: block;
+        margin-bottom:14px ;
+        padding: 10px 20px;
+        width: 70%;
+        background-color: #f7efef;
+        font-size: 600;
+        
+      }
+      
+
+
+        .btn-primary{
+        background-color: #4E47FF;
+        color: #FFFFFF;
+        font-size: 20px;
+        border-radius: 5px;
+        height: 52px;
+        width: 316px;}
+
+
+
+
+
+
   /* footer styles here */
 
 
