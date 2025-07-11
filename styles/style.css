@@ -242,19 +242,25 @@
     text-align: center;
     border: 1px solid blueviolet;
     margin-left: 150px;
-  
-
   }
-  .footer-bar ul{
+
+  footer h1{
+    color: #4E47FF;
+    font-size: 50px;
+  }
+
+  footer p{
+    width: 500px;
+    margin-left: 240px;
+  }
+  .list-items{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    width: 70%;
+    width: 55%;
     align-items: center;
+    margin-left: 150px;
  
   }
-
-  .list-items{
-    font-styl
-  }
-
+  
+  
