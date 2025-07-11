@@ -43,13 +43,14 @@
 
     .sub-header-btn{
     height: 48px;
-    width: 174px;
+    width: 250px;
     border-radius: 10px;
     color: #FFFFFF;
     background-color: #4E47FF;
     border: none;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
+    font-weight: 500;
     }
 
     .sub-header-btn:hover{
@@ -78,6 +79,7 @@
     color: #FFFFFF;
     background-color: #4E47FF;
     border: none;
+    font-size: 1.1em;
     }
 
     nav button:hover{
@@ -94,125 +96,127 @@
 
 
     /* section styles */
-
     section{
-      margin-bottom: 50px;
-    }
-    .section1{
-    display: flex;
-    max-width: 1150px;
-    margin: 0 auto;
-    margin-top: 158px;
-    align-items: center;
-    justify-content: space-between;
+    margin-bottom: 50px;
     }
 
-    .section-items{
-      text-align: center;
-      margin-left: 50px;
+  
+.section1{
+display: flex;
+max-width: 1150px;
+margin: 0 auto;
+margin-top: 158px;
+align-items: center;
+justify-content: space-between;
     }
 
-    .section1-pic{
-      width: 350px;
-      height: 250px;
-      margin-right: 50px;
-      border-radius: 20px;
+.section-items{
+text-align: center;
+margin-left: 50px;
     }
 
-    .section1 button{
-    height: 52px;
-    width: 316px;
-    border-radius: 10px;
-    color: #FFFFFF;
-    background-color: #4E47FF;
-    border: none;
-    font-size: 1.25em;
+.section1 h1{
+font-size: 30px;
     }
 
-    .section1 button:hover{
-       background-color: #b997f0;
-          color: #FFFFFF;
+
+.section1-pic{
+width: 350px;
+height: 250px;
+margin-right: 50px;
+border-radius: 20px;
+    }
+
+.section1 button{
+height: 52px;
+width: 316px;
+border-radius: 10px;
+color: #FFFFFF;
+background-color: #4E47FF;
+border: none;
+font-size: 1.25em;
+    }
+
+.section1 button:hover{
+background-color: #b997f0;
+color: #FFFFFF;
     }
 
 
     /* Joined Thousands of Productive Users style */
 
-    .joined{
-      width: 1000px;
-      height: 300px;
-      align-items: center;
-      margin-top: 100px;
-      margin-left: 150px;
-      margin-bottom: 150px;
-      border-radius: 20px;
-      background-color: #d2d1f1;
-      text-align: center;
-      padding-top: 80px;
+.joined{
+width: 1000px;
+height: 300px;
+align-items: center;
+margin-top: 100px;
+margin-left: 150px;
+margin-bottom: 150px;
+border-radius: 20px;
+background-color: #f4f3f8;
+text-align: center;
+padding-top: 80px;
+}
+
+.joined-h3{
+margin-top: 40px;
+font-size: 20px;
+}
+
+.joined-follower{
+display: flex;
+text-align: center;
+gap: 100px;
+margin-left: 160px;
+}
+
+.joined-follower h1{
+font-size: 50px;
+color: #4E47FF;
+}
+
+.joined ul{
+list-style: none;
+gap: 5px;
+margin-bottom: 0;  
     }
 
-      .joined-h3{
-        margin-top: 40px;
-        font-size: 20px;
-      }
+.joined ul h2{
+font-size: 55px;
+color: #4E47FF;
+font-family: Arial;
+}
 
-    .joined-follower{
-     display: flex;
-     text-align: center;
-     gap: 100px;
-     margin-left: 160px;
-    }
-
-    .joined-follower h1{
-      font-size: 50px;
-      color: #4E47FF;
-    }
-
-    .joined ul{
-      list-style: none;
-      gap: 5px;
-      margin-bottom: 0;
-      
-    }
-
-    .joined ul h2{
-      font-size: 55px;
-      color: #4E47FF;
-      font-family: Arial;
-    }
-
-    .joined h3{
-      font-size: 35px;
-      margin-top: 0;
-    }
+.joined h3{
+font-size: 35px;
+margin-top: 0;
+}
 
 
     /* what our users say */
 
-    .logo{
-      display: flex;
-    }
-    .img-name{
-      display: flex;
-      gap: 10px;
-      height: 50px;
-      
-    }
+.logo{
+display: flex;
+}
 
-    .users-say{
-      
-      height: 350px;
-      width: 1000px;
-      margin-top: 20px;
-      margin-left: 150px;
-      margin-bottom: 140px;
-      padding-top: 10px;
+.img-name{
+display: flex;
+gap: 10px;
+height: 50px; 
+}
 
-    }
+.users-say{
+height: 350px;
+width: 1000px;
+margin-top: 20px;
+margin-left: 150px;
+margin-bottom: 140px;
+padding-top: 10px;
+ }
 
 .div1{
   max-width: 35%;
   height: 200px;
-  
   margin-bottom: 20px;
   border-radius: 10px;
   margin: 0 20px;
@@ -226,24 +230,20 @@
 
 
   .users-say h2{
-    text-align: center;
-    font-size: 35px;
+  text-align: center;
+  font-size: 35px;
   }
 
- 
 
-  
   /* section ready to focus */
 
 
   .ready{
-
-      
-      height: 350px;
-      width: 1000px;
-      margin-left: 150px;
-      margin-bottom: 100px;
-      text-align: center;
+  height: 350px;
+  width: 1000px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+  text-align: center;
 
   }
 
@@ -267,104 +267,105 @@
   }
 
   .ready-sub button:hover{
-     background-color: #b997f0;
-    color: #FFFFFF;
+  background-color: #b997f0;
+  color: #FFFFFF;
   }
 
    
 
   /* lets get in touch styles here */
 
-  .lets{
-    
-      height: 650px;
-      width: 1000px;
-      margin-top: 400px;
-      margin-left: 150px;
-      display: flex;
-      /* align-items: center; */
-      
-
+.lets{
+height: 650px;
+width: 1000px;
+margin-top: 400px;
+margin-left: 150px;
+display: flex;
+  }
+.lets-sub1{
+width: 50%;
+text-align: center;
+padding-top: 150px;
+font-size: 43px;
+color: #4E47FF;
   }
 
-  .lets-sub1{
-    width: 50%;
-    text-align: center;
-    padding-top: 150px;
-    font-size: 43px;
-    color: #4E47FF;
-  }
-
-   .lets-sub2{
-    width: 50%;
-    margin-top: 150px;
-    text-align: left;
-  }
-
-
-
-  .footer-column{
-        width: 50%;
-        padding-top: 100px;
-       
+.lets-sub1 h1{
+margin-left: 0;
     }
+.lets-sub2{
+width: 50%;
+margin-top: 150px;
+text-align: left;
+  }
 
 
-    .footer-column input[type="email"], .footer-column input[type="text"], .footer-column textarea{
-        height: 44px;
-        border-radius: 5px;
+.footer-column{
+width: 50%;
+padding-top: 100px;
+       
+}
+
+
+.footer-column input[type="email"], .footer-column input[type="text"], .footer-column textarea{
+height: 44px;
+border-radius: 5px;
+display: block;
+margin-bottom:14px ;
+padding: 10px 20px;
+width: 70%;
+background-color: white;
+font-size: 600;
+border: none;
         
-        display: block;
-        margin-bottom:14px ;
-        padding: 10px 20px;
-        width: 70%;
-        background-color: white;
-        font-size: 600;
-        
-      }
-      
+}
+    
+.btn-primary{
+background-color: #4E47FF;
+color: #FFFFFF;
+font-size: 20px;
+border-radius: 5px;
+height: 52px;
+width: 316px;
+border: none;
+}
+
+.btn-primary:hover{
+background-color: #b997f0;
+color: #FFFFFF;
+}
 
 
-        .btn-primary{
-        background-color: #4E47FF;
-        color: #FFFFFF;
-        font-size: 20px;
-        border-radius: 5px;
-        height: 52px;
-        width: 316px;
-        border: none;
-        }
+.input-nam{
+color: black;
+font-size: 1.1em;
+font-size: 600;
+}
 
-        .btn-primary:hover{
-          background-color: #b997f0;
-          color: #FFFFFF;
-        }
-
-
-
-
-
+.input-area{
+  color: black;
+  font-size: 1.1em;
+  font-size: 600;
+  }
 
   /* footer styles here */
-
-
-  footer{
+    footer{
     height: 350px;
     width: 1000px;
     text-align: center;
-    
-    margin-left: 150px;
-  }
+    margin-top: 120px;
+    margin-left: 140px;
+    }
 
   footer h1{
     color: #4E47FF;
     font-size: 50px;
-  }
+    }
 
   footer p{
     width: 500px;
     margin-left: 240px;
-  }
+    }
   .list-items{
     display: flex;
     list-style: none;
@@ -372,13 +373,11 @@
     width: 65%;
     align-items: center;
     margin-left: 150px;
- 
-  }
+    }
 
   .footer-bar .list-items li{
     padding: 10px 40px;
-    
-  }
+    }
 
   .footer-bar .list-items li:hover{
     background-color: #4E47FF;
